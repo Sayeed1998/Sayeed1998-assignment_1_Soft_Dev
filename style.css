@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+.first_page{
+    /* width: 100%; */
+}
+.second_page {
+    /* width: 100%; */
+}
+.row{
+   
+    height: 70px;
+    background-color: #1A187A;
+     
+}
+
+.left_nav img{
+   height: 40px;
+   width: 200px;
+}
+.left_nav input{
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.left_nav form{
+    padding-left: 30px;
+}
+.left_nav ::placeholder{
+    color: #3b39c2;
+}
+.right_nav li{
+   
+    gap: 25px;
+    color: white;
+    font-weight: 900;
+
+}
+.right_nav{ 
+    gap: 30px;
+}
+.slider{
+    background: linear-gradient(45deg,pink, purple) 
+}
+.slider_img{
+    padding-left: 50px;
+    padding-top: 35px;
+    overflow: hidden;
+}
+.slider_button{
+    padding: 8px 40px;
+    background-color: #1A187A;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+.h_bold{
+    font-weight: bolder;
+    font-size: larger;
+}
+.cards{
+    margin-top: 100px;
+}
+.card_items{
+    
+    background-color: #e2e2e2;
+   
+}
+.right_shop{
+    background-color: #a1a1a1;
+}
+.mackbook{
+    font-weight:100;
+}
+
+.second_page{
+    height: 80vh;
+    width: 100%;
+}
+.left_shop{
+    width: 50%;
+}
+.img_shop img{
+overflow: hidden;
+padding-right: 200px;
+padding-top: 30px;
+}
+.img_shop {
+    width: 30%;
+}
+.first_shop_text {
+  width: 70%;
+}
+.right_shop{
+    width: 50%;
+    padding: 10px 40px;
+}
+.fist_shop
+{
+    width: 100%;
+    height: 50%;
+}
+.second_shop_s{
+    width: 100%;
+    height: 50%;
+}
+.second_shop_s_gap{
+    width: 50%;
+}
+.shop_text{
+    width: 50%;
+   
+}
+.right_shop_right img{
+    padding-left: 50px;
+}
+.second_shop_s{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./resources/164444852-fitness-workout-and-vr-technology-sports-equipment-on-teal-background-virtual-reality-glasses.jpg);
+}  
+.right_shop_left_button{
+    padding: 8px 30px;
+    background-color: #3b39c2;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    outline: none; 
+} 
+.second_shop_s{
+    flex-basis: 50%;
+}
+.second_shop_s{
+    width: 100%;
+}
+.second_shop_s_gap{
+    width: 70%;
+}
+.shop_text{
+    width: 30%;
+}
+.left_shop{
+    width: 50%;
+}
+.right_shop{
+    width: 50%;
+}
+.third_page{
+    margin-top: 100px;
+   
+}
+
+.third_page_title {
+  width: 100%;
+}
+.third_page_title i{
+    font-size: 35px;
+    padding: 10px;
+}
+.t_p_l{
+    width: 50%;
+    float: left;
+    align-content: start;
+}
+.t_p_r{
+    width: 50%;
+    align-content: end;
+}
+.catagory-1{
+    margin-top: 15px;
+    background-color: #eeeeee;
+    height: 120px;
+    align-content: center;
+   text-align: center;
+   border-radius: 20px;
+}
+
+.catagory-1:hover{
+    background-color: #e0e0e0;
+    height: 120px;
+    align-content: center;
+   text-align: center;
+   border-radius: 20px;
+   transition: .9s;
+
+}
+.catagory-1 h6{
+  font-size: 18px;
+}
+.catagory-1 i{
+    font-size: 25px;
+}
+.catagory_item {
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.page_four{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.content_feature li a{
+    font-size: 25px;
+    padding: 30px;
+    color: #8B8B8B;
+    transition: 0.8s ease-in-out;
+
+}
+.content_feature li a:hover{
+    font-size: 25px;
+    padding: 30px;
+    color: #000000;
+    text-decoration: underline;
+ 
+}
+.feature_content_cards {
+    gap: 15px;
+    margin-top: 30px;
+    width: 100%;
+
+}
+.feature_content_card {
+  background-color: #e0e0e0;
+  text-align: center;
+  border-radius: 10px;
+  height: 400px;
+}
+.feature_content_card i {
+    float: right;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.feature_content_card p{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}
+.feature_btn{
+    padding: 10px 20px;
+    color: white;
+    background: #000000;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.feature_btn:hover{
+    padding: 10px 20px;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.feature_content_card span {
+   font-weight: bold;
+}
+.feature_content_card i:hover{
+    color: red;
+    transition: 0.9s;
+}
+.page_five{
+    background-color: #958AD4;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+   align-items: center;
+   justify-content:space-evenly
+   
+}
+.page_five_1 {
+  width: 30%;
+}
+.page_five_2 {
+  width: 40%;
+  text-align: center;
+}
+.page_five_3 {
+  width: 30%;
+}
+.page_five_2 h1{
+    font-size: 80px;
+    color:#1A187A;
+    font-weight: bolder;
+    letter-spacing: -5px;
+  }
+.page_five_2 p{
+color:white;
+  }
+.page_five_2 span{
+color:white;
+font-size: 80px;
+font-weight: 300px;
+  }
+.page_five_3{
+    padding-left: 200px;
+    overflow: hidden;
+  }
+.page_five_1 img{
+   padding-right: 200px;
+  }
+footer 
+{
+    background-color: #0E071B;
+    height: 60vh;
+    width: 100%;
+}
+
+.footer_1 img{
+    padding-bottom: 70px;
+}
+.footer_2 ul{
+    margin-bottom: 60px;
+}
+.footer_2 li{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.8s ease-in-out;
+}
+.footer_2 li:hover{
+    color:blue;
+}
+.footer_3 li{
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.footer_3 li:hover{
+    font-size: 16px;
+    color: #8B8B8B;
+    padding: 5px;
+    cursor: pointer;
+}
+.footer_4 li{
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.footer_4 li:hover{
+    font-size: 16px;
+    color: #8B8B8B;
+    padding: 5px;
+    cursor: pointer;
+}
